@@ -1,0 +1,42 @@
+.button {
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    background: #505050;
+  }
+
+  .button:active {
+    transform: scale(0.9);
+  }
+
+
+.button.zero {
+    width: 155px; /* Double-width for the "0" button */
+    border-radius: 35px; /* Adjusted radius */
+  }
+  
+  .button.operator {
+    background: #ff9f0a;
+  }
+  
+  .button.operator:active {
+    background: #ffa733;
+  }
+  
+  .button.special {
+    background: #d4d4d2;
+    color: black;
+  }
+  
+  .button.special:active {
+    background: #e0e0e0;
+  }
